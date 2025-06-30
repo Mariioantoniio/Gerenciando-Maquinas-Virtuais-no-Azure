@@ -1,6 +1,18 @@
 # 💻 Gerenciando Máquinas Virtuais no Azure
 
 Este repositório foi desenvolvido como parte do desafio prático da **Digital Innovation One (DIO)**, com o objetivo de aplicar os conhecimentos adquiridos na trilha de formação **Microsoft AZ-104**, focando no gerenciamento de máquinas virtuais (VMs) dentro do ambiente **Microsoft Azure**.
+---
+
+## 📌 Índice
+- [Objetivos do Projeto](#🎯-objetivos-do-projeto)
+- [Conhecimentos Aplicados](#🧠-conhecimentos-aplicados)
+- [Etapas do Laboratório](#🛠️-etapas-do-laboratório)
+- [Capturas de Tela](#📸-capturas-de-tela-opcional)
+- [Comandos Linux Úteis](#📋-comandos-linux-úteis)
+- [Dicas Extras](#💡-dicas-extras)
+- [Próximos Passos](#🚀-próximos-passos)
+- [Referências](#📚-referências)
+- [Conclusão](#✅-conclusão)
 
 ---
 
@@ -14,8 +26,6 @@ Este repositório foi desenvolvido como parte do desafio prático da **Digital I
 ---
 
 ## 🧠 Conhecimentos Aplicados
-
-Durante a realização deste projeto, foram aplicados os seguintes conceitos:
 
 | Área de Conhecimento | Tópicos Abordados |
 |----------------------|-------------------|
@@ -56,16 +66,6 @@ Durante a realização deste projeto, foram aplicados os seguintes conceitos:
 
 ---
 
-## 📸 Capturas de Tela (opcional)
-
-Recomenda-se adicionar imagens no diretório `/images` com os seguintes exemplos:
-
-1. Tela de criação da VM.
-2. Configuração da rede e NSG.
-3. Conexão bem-sucedida via RDP ou SSH.
-
----
-
 ## 📋 Comandos Linux Úteis
 
 ```bash
@@ -80,15 +80,40 @@ sudo apt install apache2 -y
 
 # Verificar status do serviço
 sudo systemctl status apache2
+```
 
 ---
 
-    "Dicas Extras"
-* Use nomenclaturas padronizadas para facilitar o gerenciamento no portal.
-* Sempre revise as regras de NSG para evitar exposição desnecessária.
-* Utilize tags nos recursos para organização e rastreabilidade.
-* Ative o monitoramento básico da VM para acompanhar uso de CPU, disco e rede.
+## 💡 Dicas Extras
 
+- Use **nomenclaturas padronizadas** para facilitar o gerenciamento no portal.
+- Sempre **revise as regras de NSG** para evitar exposição desnecessária.
+- Utilize **tags nos recursos** para organização e rastreabilidade.
+- Ative o **monitoramento básico da VM** para acompanhar uso de CPU, disco e rede.
 
 ---
 
+## 🚀 Próximos Passos
+
+- Automatizar a criação da VM usando **Azure CLI** ou **PowerShell**.
+- Estruturar o deployment com **ARM Templates** ou **Bicep**.
+- Incluir **monitoramento com Azure Monitor** e alertas.
+- Implementar **políticas com Azure Policy** para reforçar a segurança.
+
+---
+
+## 📚 Referências
+
+- [Documentação Oficial do Azure – Gerenciar VMs](https://learn.microsoft.com/pt-br/azure/virtual-machines/)
+- [Azure CLI – Microsoft Docs](https://learn.microsoft.com/cli/azure/)
+- [Templates ARM – Microsoft Docs](https://learn.microsoft.com/azure/azure-resource-manager/templates/overview)
+- [DIO – Trilha de Certificação AZ-104](https://www.dio.me/)
+- [Guia Markdown GitHub](https://guides.github.com/features/mastering-markdown/)
+
+---
+
+## ✅ Conclusão
+
+Este projeto demonstrou na prática como provisionar e acessar máquinas virtuais na nuvem com segurança e eficiência. A documentação gerada serve como guia reutilizável tanto para estudos quanto para replicação em ambientes de teste ou produção.
+
+> 💡 *Próximo passo sugerido*: Automatizar o provisionamento de infraestrutura e aplicar políticas de conformidade com Azure Policy.
